@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="@drawable/foto2"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/useremailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#515151"
+            android:hint="Email Adresiniz"
+            android:background="#fff"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/userPasswordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Parola"
+            android:background="#fff"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#515151"
+
+           />
+        <Button
+            android:padding="15dp"
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giriş Yap"
+            android:textColor="#fff"
+            android:background="@color/mor"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:padding="15dp"
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mor"
+            android:textColor="#fff"
+            android:text="Kayıt Ol"
+            android:layout_marginTop="15dp"
+
+             />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

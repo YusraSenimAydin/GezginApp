@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="@drawable/foto2"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/useremailet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Adresiniz"
+            android:background="#fff"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#515151"/>
+
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/userpasswordet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Parola"
+            android:background="#fff"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#515151"
+            />
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/userConfrimPasswordet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Parola Onay"
+            android:background="#fff"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#515151"/>
+
+        <Button
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:id="@+id/registerBtnn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mor"
+            android:text="Kayıt Ol"
+            android:layout_marginTop="15dp"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

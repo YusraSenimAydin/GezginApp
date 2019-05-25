@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddPhotoActivity">
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+    <ImageView
+        android:id="@+id/userPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/foto1"
+
+        android:layout_marginLeft="100dp"
+        />
+    <Button
+        android:padding="15dp"
+        android:id="@+id/SelectPhotoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Seç"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:background="@color/mor"/>
+
+    <Button
+        android:padding="15dp"
+        android:id="@+id/SavePhotoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotoğrafları Kaydet"
+        android:textColor="#fff"
+        android:background="@color/mor"
+        android:layout_marginTop="15dp"
+        />
+    </LinearLayout>
+</RelativeLayout>
